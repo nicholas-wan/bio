@@ -26,7 +26,7 @@
                  <ul>
                    <a href="#t1"><li class="icon fa fa-home" id="uno"></li></a>
                    <a href="#t2"><li class="icon fa fa-user" id="dos"></li></a>
-                   <a href="#t3"><li class="icon fa fa-image" id="tres"></li></a> <!-- remove to remove gallery -->
+                   <a href="#t3"><li class="icon fa fa-globe" id="tres"></li></a> <!-- remove to remove gallery -->
                    <a href="#t4"><li class="icon fa fa-phone" id="cuatro"></li></a>
                  </ul>
                   <div class="page" id="p1">
@@ -36,19 +36,22 @@
                     <li class="icon fa fa-user"><span class="title">About Myself</span>
                     <div class="container">
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                           <div class="left-text">
                             <h4>Nicholas Wan</h4>
                             <img src="img/nus.png" width = '150'/img>
-                            <p>First-year Business Analytics</p>
-                            <p>Cumulative Average Point (CAP): 4.70/5.00</p>
-                            <p>College of Alice and Peter Tan</p>
+                            <ul>
+                            <li>First-year Business Analytics</li>
+                            <li>Cumulative Average Point (CAP): 4.70/5.00</li>
+                            <li>College of Alice and Peter Tan</li>
+                          </ul>
+
                             <div class="primary-button">
                               <a href="#t3">Discover More</a>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                           <div class="right-image">
                             <img src="img/selfimg.jpg" width = 400/img>
                           </div>
@@ -58,12 +61,12 @@
                     </li>
                   </div>
                   <div class="page" id="p3">
-                    <li class="icon fa fa-image"><span class="title">Projects</span>
+                    <li class="icon fa fa-globe"><span class="title">Projects</span>
                       <div class="container">
                         <div class="row">
                           <div class="col-md-3 col-md-offset-1">
                             <div class="project-item">
-                              <a href="img/item-01.jpg" data-lightbox="image-1"><img src="img/thumb-01.jpg"></a>
+                              <a href='#' data-toggle="modal" data-target="#exampleModal"><img src="img/thumb-01.jpg"></a>
                             </div>
                           </div>
                           <div class="col-md-3">
@@ -95,40 +98,41 @@
                       </div>
                     </li>
                   </div>
+
+                  <!-- Modal -->
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div class="page" id="p4">
                    <li class="icon fa fa-phone"><span class="title">Contact Me</span>
                     <div class="container">
                       <div class="row">
-                        <div class="col-md-6">
-                           <form id="contact" action="" method="post">
-                              <div class="col-md-12">
-                                <fieldset>
-                                  <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                                </fieldset>
-                              </div>
-                              <div class="col-md-12">
-                                <fieldset>
-                                  <input name="email" type="email" class="form-control" id="email" placeholder="Email" required="">
-                                </fieldset>
-                              </div>
-                              <div class="col-md-12">
-                                <fieldset>
-                                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required=""></textarea>
-                                </fieldset>
-                              </div>
-                              <div class="col-md-12">
-                                <fieldset>
-                                  <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                </fieldset>
-                              </div>
-                            </form>
-                         </div>
-                         <div class="col-md-6">
+                        <div class="col-md-4">
+                        </div>
+                         <div class="col-md-4">
                            <div class="right-info">
-                              <p>Contact me on Social Media<br><br></p>
+                              <img src='img/get-in-touch.png' height = '100'/img>
                               <ol class="social-icons">
+                                <i><a href="mailto:nicholaswan@live.com.sg"><i class="fa fa-envelope"></i></a></i>
                                 <i><a target="_blank" href="http://facebook.com/nicholas.wan.jia.shun"><i class="fa fa-facebook"></i></a></i>
-                                <i><a target="_blank" href="https://www.instagram.com/nick_wan96/"><img src ="img/insta.png"width='22' style="margin-top:-3px"/img></i></a></i>
+                                <i><a target="_blank" href="https://www.instagram.com/nick_wan96/"><i class="fa fa-instagram"></i></a></i>
                                 <i><a target="_blank" href="https://www.linkedin.com/in/nicholas-wan-3a4336152/"><i class="fa fa-linkedin"></i></a></i>
 
                               </ol>
@@ -137,8 +141,7 @@
                       </div>
                     </div>
                    </li>
-                  </div>
-
+                 </div>
                 </section>
               </div>
             </div>
