@@ -348,8 +348,8 @@ a {
 }
 
 #p3 .project-item img {
-	/* width: 100%; */
-	/* overflow: hidden; */
+	width: 100%;
+	overflow: hidden;
 }
 
 #p3 .last-project {
