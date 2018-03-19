@@ -66,14 +66,14 @@ section {
 
 #p3 {
   left: 200%;
-  background-image: url(../img/gallery-bg.png);
+  background-image: url(../img/white.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #p4 {
   left: 300%;
-  background-image: url(../img/contact-bg.png);
+  background-image: url(../img/white.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -439,7 +439,7 @@ a {
 }
 
 #p4 .right-info {
-	background-color: #faf0e6;
+	/* background-color: #faf0e6; */
 	padding: 30px;
 	color: #343434;
 	/* text-align: left; */
@@ -457,12 +457,10 @@ a {
 
 #p4 .right-info ol {
   padding: 0;
-  margin: 0;
 }
 
 #p4 .right-info i {
-  margin-right: 10px;
-  color: #fff;
+    color: #fff;
   font-size: 15px;
   width: 34px;
   /* height: 34px; */
@@ -799,4 +797,10 @@ body.lb-disable-scrolling {
 	left:-20px;
 	height:380px;
 	right:-20px;
+}
+#com{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 300px;
+	overflow-y: hidden;
 }
