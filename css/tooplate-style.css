@@ -138,21 +138,21 @@ ul .icon:hover {
 }
 
 #t2:target #dos {
-	color: #9f7f5f;
+	color: #63adcc;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
 }
 
 #t3:target #tres {
-	color: #8aaa75;
+	color: #63adcc;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
 }
 
 #t4:target #cuatro {
-	color: #8575aa;
+	color: #63adcc;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
