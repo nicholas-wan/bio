@@ -59,7 +59,7 @@ section {
 
 #p2 {
   left: 100%;
-  background-image: url(../img/about-bg.png);
+  background-image: url(../img/white.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -790,4 +790,13 @@ body.lb-disable-scrolling {
 .clipped {
     clip-path: circle();
 		margin-left: -105px;
+}
+
+#p2pic{
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	left:-20px;
+	height:380px;
+	right:-20px;
 }
