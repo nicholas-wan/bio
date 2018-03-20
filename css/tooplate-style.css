@@ -13,7 +13,6 @@ body {
 p, ul > li {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	font-weight: 300;
 	line-height: 23px;
 }
 
@@ -117,7 +116,7 @@ section > ul {
 }
 
 .icon {
-  color: #fff;
+  color: 	#000000;
   font-size: 32px;
   display: block;
 }
@@ -803,4 +802,7 @@ body.lb-disable-scrolling {
 	background-repeat: no-repeat;
 	padding-top: 300px;
 	overflow-y: hidden;
+}
+#list-about{
+	font-weight: normal;
 }
