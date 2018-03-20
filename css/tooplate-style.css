@@ -347,7 +347,6 @@ a {
 }
 
 #p3 .project-item img {
-	width: 100%;
 	overflow: hidden;
 }
 
@@ -805,4 +804,11 @@ body.lb-disable-scrolling {
 }
 #list-about{
 	font-weight: normal;
+}
+
+#proj{
+	    border: 3px solid rgba(0,0,0,0.2);
+		  width: 180px;
+			height: 180px;
+
 }
