@@ -814,3 +814,22 @@ body.lb-disable-scrolling {
     font-size: 18px;
     color: #337ab7;
 }
+@media screen and (max-width: 480px) {
+    img {
+         width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .right-info {
+         width: 200px;
+				 margin-left:22.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #p4 .right-info i{
+         background-color:#aeaeae
+
+    }
+}
