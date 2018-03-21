@@ -49,6 +49,7 @@ section {
 #p2 {
   left: 100%;
   background-image: url(../img/white.jpg);
+	/* background-image: url(../img/plainwhite.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
