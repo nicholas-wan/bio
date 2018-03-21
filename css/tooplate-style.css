@@ -193,7 +193,7 @@ a {
 
 .page#p1 .icon {
   margin-left: 10%;
-  	height: 400px;
+	margin-top: 12%;
 }
 
 .page#p1 .icon {
@@ -430,14 +430,14 @@ a {
 
 #p4 .right-info i {
     color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   /* height: 34px; */
   background-color: #cdcdcd;
   display: inline-block;
   border-radius: 50%;
   text-align: center;
-  line-height: 60px;
-	width: 60px;
+  line-height: 55px;
+	width: 55px;
 }
 
 #p4 .right-info i:hover {
