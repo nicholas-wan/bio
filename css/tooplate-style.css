@@ -759,14 +759,7 @@ body.lb-disable-scrolling {
 		margin-left: -105px;
 }
 
-#p2pic{
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: absolute;
-	left:-20px;
-	height:380px;
-	right:-20px;
-}
+
 #com{
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -814,11 +807,7 @@ body.lb-disable-scrolling {
     font-size: 18px;
     color: #337ab7;
 }
-@media screen and (max-width: 480px) {
-    img {
-         width: 200px;
-    }
-}
+
 
 @media screen and (max-width: 480px) {
     .right-info {
@@ -849,4 +838,36 @@ body.lb-disable-scrolling {
          margin-left:13%;
 				 margin-top:-5%;
     }
+}
+@media screen and (max-width: 480px) {
+       #selfpic{
+         width:150px
+    }
+}
+#p2pic{
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	left:-20px;
+	height:380px;
+	right:-20px;
+	font-family: garamond;
+	color:#d9d9d9;
+}
+@media screen and (max-width: 480px) {
+       #p2pic{
+         height:250px;
+				 font-family: garamond;
+			 	 color:#d9d9d9;
+				 font-size:30px;
+    }
+}
+@media screen and (max-width: 480px){
+   	#about-desc{
+			margin-top: -60%;
+	    margin-left: -5%;
+}
+#p2name{
+	margin-top:6%;
+	font-size:30px;
 }
