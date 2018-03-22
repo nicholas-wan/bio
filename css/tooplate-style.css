@@ -837,8 +837,8 @@ body.lb-disable-scrolling {
 }
 @media screen and (max-width: 480px) {
 	#p4 .right-info{
-		margin-left:13%;
-		margin-top:-26%;
+		margin-left:25%;
+		margin-top:0;
 	}
 }
 @media screen and (max-width: 480px) {
