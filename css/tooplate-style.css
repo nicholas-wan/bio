@@ -830,6 +830,23 @@ body.lb-disable-scrolling {
 @media screen and (max-width: 480px) {
     #p4 .right-info i{
          background-color:#aeaeae
+    }
+}
+@media screen and (max-width: 1400px) {
+    #p3 .project-item i{
+         margin-left:-1.5%;
 
+    }
+}
+@media screen and (max-width: 800px) {
+    #proj{
+         height:140px;
+				 width:140px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #p4 .right-info{
+         margin-left:11%;
+				 margin-top:-5%;
     }
 }
