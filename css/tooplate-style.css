@@ -864,7 +864,7 @@ body.lb-disable-scrolling {
 }
 @media screen and (max-width: 480px){
    	#about-desc{
-			margin-top: -60%;
+			margin-top: -40%;
 	    margin-left: -5%;
 }
 #p2name{
