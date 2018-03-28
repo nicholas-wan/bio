@@ -898,3 +898,17 @@ body.lb-disable-scrolling {
 		margin-left:auto;
 	}
 }
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('../fonts/BebasNeue Bold.otf');
+}
+#skillhead{
+	font-family:BebasNeueBold;
+	letter-spacing:0.1em;
+	font-size:49px;
+}
