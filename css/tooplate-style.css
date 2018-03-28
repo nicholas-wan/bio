@@ -4,8 +4,10 @@ body {
 
 p, ul > li {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 23px;
+	font-weight:400;
+	color:black;
 }
 
 ul > li {
@@ -24,7 +26,6 @@ html, body, section, .page {
 	padding: 0;
 	transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
 	-webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
-	color: #fff;
 	background-image: url(../img/home.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -766,9 +767,6 @@ body.lb-disable-scrolling {
 	padding-top: 300px;
 	overflow-y: hidden;
 }
-#list-about{
-	font-weight: normal;
-}
 
 #proj{
 	border: 3px solid rgba(0,0,0,0.2);
@@ -841,11 +839,7 @@ body.lb-disable-scrolling {
 		margin-top:-15%;
 	}
 }
-@media screen and (max-width: 480px) {
-	#selfpic{
-		width:150px
-	}
-}
+
 #p2pic{
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -856,20 +850,7 @@ body.lb-disable-scrolling {
 	font-family: garamond;
 	color:#d9d9d9;
 }
-@media screen and (max-width: 480px) {
-	#p2pic{
-		height:250px;
-		font-family: garamond;
-		color:#d9d9d9;
-		font-size:30px;
-	}
-}
-@media screen and (max-width: 480px){
-	#about-desc{
-		margin-top: -40%;
-		margin-left: -5%;
-	}
-}
+
 #p2name{
 	margin-top:6%;
 	font-size:30px;
@@ -910,5 +891,95 @@ body.lb-disable-scrolling {
 #skillhead{
 	font-family:BebasNeueBold;
 	letter-spacing:0.1em;
-	font-size:49px;
+	font-size:44px;
+}
+
+@media not all and (min-width: 480px) { /*phone*/
+	#p2pic{
+		height:230px;
+		font-family: garamond;
+		color:#d9d9d9;
+		font-size:30px;
+	}
+}
+
+@media not all and (min-width: 480px) {
+	#p2pic{
+		height:250px;
+		font-family: garamond;
+		color:#d9d9d9;
+		font-size:30px;
+	}
+}
+@media not all and (min-width: 480px) { /*phone*/
+	#selfpic{
+		height:140px;
+		width:140px;
+		margin-top:0;
+	}
+}
+@media not all and (min-width: 480px) { /*phone*/
+	#skillhead{
+		font-size:35px;
+	}
+}
+@media not all and (min-width: 480px) { /*phone*/
+	#pageicons{
+		font-size:35px;
+	}
+}
+@media not all and (min-width: 480px) { /*phone*/
+	#pageicons{
+		font-size:35px;
+	}
+}
+@media not all and (min-width: 480px) { /*phone*/
+	.social-icons{
+		line-height: 80px;
+	}
+}
+
+/* <~~~~~~~~~~~~~~~~~~~~~~~~~~~About Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> */
+@media not all and (min-width: 480px) {  /*phone*/
+	#abouthead{
+		font-family:BebasNeueBold;
+		letter-spacing:0.1em;
+		font-size:35px;
+		margin-top:85%;
+	}
+}
+@media all and (min-width: 480px) {
+	#abouthead{
+		font-family:BebasNeueBold;
+		letter-spacing:0.1em;
+		font-size:44px;
+		margin-top:35%;
+		margin-right:2.5%;
+	}
+}
+#aboutblock{
+	text-align:center;
+}
+@media all and (min-width: 480px) {
+	#aboutblock{
+		margin-left:19.5%;
+	}
+}
+
+hr{
+	margin-right:0;
+}
+
+#education{
+	text-align:left;
+	line-height:10px;
+	margin-left:5%
+}
+
+@media not all and (min-width: 480px) {  /*phone*/
+	#eduimage{
+		width:200px;
+		margin-top:9%;
+		margin-bottom:9%;
+	}
 }
