@@ -279,7 +279,7 @@ a {
 }
 
 #p2 .primary-button {
-	margin-bottom: 30%;
+	margin-bottom: 3%;
 }
 
 #p2 .right-image {
@@ -1017,5 +1017,10 @@ hr{
 @media all and (min-width: 480px) {
 	#edulastrow{
 		margin-bottom:2.85%
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	#p2 .icon{
+		padding-bottom:5%;
 	}
 }
