@@ -888,11 +888,7 @@ body.lb-disable-scrolling {
     font-family: 'BebasNeueBold';
     src: url('../fonts/BebasNeue Bold.otf');
 }
-#skillhead{
-	font-family:BebasNeueBold;
-	letter-spacing:0.1em;
-	font-size:44px;
-}
+
 
 @media not all and (min-width: 480px) { /*phone*/
 	#p2pic{
@@ -918,11 +914,7 @@ body.lb-disable-scrolling {
 		margin-top:0;
 	}
 }
-@media not all and (min-width: 480px) { /*phone*/
-	#skillhead{
-		font-size:35px;
-	}
-}
+
 @media not all and (min-width: 480px) { /*phone*/
 	#pageicons{
 		font-size:35px;
@@ -945,7 +937,8 @@ body.lb-disable-scrolling {
 		font-family:BebasNeueBold;
 		letter-spacing:0.1em;
 		font-size:35px;
-		margin-top:85%;
+		margin-top:92.5%;
+		margin-bottom:7.5%;
 	}
 }
 @media all and (min-width: 480px) {
@@ -953,12 +946,13 @@ body.lb-disable-scrolling {
 		font-family:BebasNeueBold;
 		letter-spacing:0.1em;
 		font-size:44px;
-		margin-top:35%;
-		margin-right:2.5%;
+		margin-top:36%;
+		margin-right:5%;
 	}
 }
 #aboutblock{
 	text-align:center;
+	margin-top:1%;
 }
 @media all and (min-width: 480px) {
 	#aboutblock{
@@ -972,14 +966,56 @@ hr{
 
 #education{
 	text-align:left;
-	line-height:10px;
+	line-height:12px;
 	margin-left:5%
 }
 
 @media not all and (min-width: 480px) {  /*phone*/
-	#eduimage{
+	#nus{
 		width:200px;
 		margin-top:9%;
 		margin-bottom:9%;
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	#njc{
+		width:230px;
+		margin-top:9%;
+		margin-bottom:9%;
+	}
+}
+@media all and (min-width: 480px) {  /*phone*/
+	#nus{
+		width:230px;
+	}
+}
+@media all and (min-width: 480px) {  /*phone*/
+	#njc{
+		width:300px;
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	#skillhead{
+		font-family:BebasNeueBold;
+		letter-spacing:0.1em;
+		font-size:35px;
+	}
+}
+@media all and (min-width: 480px) {
+	#skillhead{
+		font-family:BebasNeueBold;
+		letter-spacing:0.1em;
+		font-size:44px;
+		margin-right:3%;
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	#edulastrow{
+		margin-bottom:11%;
+	}
+}
+@media all and (min-width: 480px) {
+	#edulastrow{
+		margin-bottom:2.85%
 	}
 }
