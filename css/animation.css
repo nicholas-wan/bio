@@ -30,7 +30,7 @@ path{
 @media all and (min-width: 480px) {
 	.wrapper{
 		position:absolute;
-		top:45%;
+		top:48%;
 		left:32%;
 		width:40%;
 	}
@@ -40,15 +40,5 @@ path{
 		margin-top: 70%;
 		width: 80%;
 		margin-left: 15%;
-	}
-}
-@media all and (min-width: 480px) {
-	#p1button{
-		margin-top: 8%
-	}
-}
-@media not all and (min-width: 480px) {  /*phone*/
-	#p1button{
-		margin-top: 28%
 	}
 }
