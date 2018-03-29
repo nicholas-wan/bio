@@ -36,7 +36,7 @@ path{
 }
 @media not all and (min-width: 480px) {  /*phone*/
 	.wrapper{
-		margin-top: 70%;
+		margin-top: 68%;
 		width: 80%;
 		margin-left: 15%;
 	}
