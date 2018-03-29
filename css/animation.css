@@ -1,0 +1,54 @@
+
+path{
+	stroke:#000000;
+	fill:#000000;
+	stroke-dasharray:1800;
+	opacity:10;
+	animation: animate 3s cubic-bezier(0,0.23,1,.1);
+}
+@keyframes animate{
+	0%{
+		opacity:0;
+		fill: none;
+		stroke-dashoffset:1800;
+	}
+	30%{
+		opacity:10;
+		fill: none;
+		stroke-dashoffset:1800;
+	}
+	90%{
+		fill:rgba(255,255,255,0);
+	}
+	100%{
+		opacity:10;
+		fill:rgba(255,255,255,1)
+		stroke-dashoffset:1800;
+	}
+}
+
+@media all and (min-width: 480px) {
+	.wrapper{
+		position:absolute;
+		top:45%;
+		left:32%;
+		width:40%;
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	.wrapper{
+		margin-top: 70%;
+		width: 80%;
+		margin-left: 15%;
+	}
+}
+@media all and (min-width: 480px) {
+	#p1button{
+		margin-top: 8%
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	#p1button{
+		margin-top: 28%
+	}
+}

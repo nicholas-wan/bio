@@ -47,12 +47,7 @@
 }
 
 
-.center {
-
-  margin: 0 auto;
-
-}
-
+/* .center {margin: 0 auto;}
 .awesome {
   font-family: BebasNeueBold;
   width:100%;
@@ -61,42 +56,35 @@
   font-size:45px;
   font-weight: bold;
   -webkit-animation:colorchange 20s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+  0% {color: black;}
+  10% {color: #5B5A66;}
+  20% {color: black;}
+  30% {color: #5B5A66;}
+  40% {color: black;}
+  50% {color: #5B5A66;}
+  60% {color: black;}
+  70% {color: #5B5A66;}
+  80% {color: black;}
+  90% {color: #5B5A66;}
+  100% {color: black;}
+} */
 
 
+.typewriter {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
 }
 
-@-webkit-keyframes colorchange {
-  0% {
-    color: black;
-  }
-  10% {
-    color: #5B5A66;
-  }
-  20% {
-    color: black;
-  }
-  30% {
-    color: #5B5A66;
-  }
-  40% {
-    color: black;
-  }
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
   50% {
-    color: #5B5A66;
-  }
-  60% {
-    color: black;
-  }
-  70% {
-    color: #5B5A66;
-  }
-  80% {
-    color: black;
-  }
-  90% {
-    color: #5B5A66;
-  }
-  100% {
-    color: black;
+    border-color: transparent;
   }
 }

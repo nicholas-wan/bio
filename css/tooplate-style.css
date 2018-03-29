@@ -248,12 +248,6 @@ a {
 }
 
 
-#p1 .primary-button {
-	display: block;
-	margin-top: -20px;
-	padding-bottom: 60px;
-}
-
 #p1 span {
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
@@ -455,9 +449,6 @@ a {
 		padding: 80px 0px 0px 4%;
 	}
 
-	#p1 .primary-button {
-		margin-bottom: 100px;
-	}
 
 	#p1 h4 {
 		letter-spacing: 1px;
@@ -1023,5 +1014,19 @@ hr{
 @media not all and (min-width: 480px) {  /*phone*/
 	#p2 .icon{
 		padding-bottom:5%;
+	}
+}
+@media all and (min-width: 480px) {
+	#p1button{
+		margin-top: 8%;
+		display: block;
+		padding-bottom: 60px;
+	}
+}
+@media not all and (min-width: 480px) {  /*phone*/
+	#p1button{
+		margin-top: 28%;
+		display: block;
+		padding-bottom: 60px;
 	}
 }
