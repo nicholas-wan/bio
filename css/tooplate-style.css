@@ -444,10 +444,10 @@ a {
 
 @media (max-width: 850px){
 
-	.page#p1 .icon {
+	/* .page#p1 .icon {
 		height: auto;
 		padding: 80px 0px 0px 4%;
-	}
+	} */
 
 
 	#p1 h4 {
@@ -1018,14 +1018,14 @@ hr{
 }
 @media all and (min-width: 480px) {
 	#p1button{
-		margin-top: 8%;
+		margin-top: 90px;
 		display: block;
 		padding-bottom: 60px;
 	}
 }
 @media not all and (min-width: 480px) {  /*phone*/
 	#p1button{
-		margin-top: 28%;
+		margin-top: 60px;
 		display: block;
 		padding-bottom: 60px;
 	}
