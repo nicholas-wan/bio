@@ -1030,3 +1030,8 @@ hr{
 		padding-bottom: 60px;
 	}
 }
+@media all and (min-width: 480px) {
+	#skillsblock{
+		margin-left:23.5%;
+	}
+}
